@@ -24,9 +24,9 @@ Create a .env file in the root directory and add the following environment varia
 
 
 ```bash
-Port = 5000
-DATABASE_URL = "mongodb+srv://prajjwa295:Prajjwal%40%401@workoai.1zabfx1.mongodb.net/"
-JWT_SECRET = "prajjwal"
+Port = 
+DATABASE_URL = ""
+JWT_SECRET = ""
 ```
 
 3 . Start the server:
