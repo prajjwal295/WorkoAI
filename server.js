@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const dotenv = require("dotenv");
 require("dotenv").config();
-const Port = process.env.PORT || 4000;
+const Port = process.env.Port || 4000;
 const { auth } = require("./middlewares/auth");
 
 const userController = require("./controllers/UserController");
